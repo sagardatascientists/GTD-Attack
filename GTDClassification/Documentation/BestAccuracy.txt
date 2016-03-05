@@ -1,0 +1,44 @@
+ 
+Random Forest Algorithm :
+ 
+
+                                  5 Fold cross Validations 
+ 
+                       === Classifier model (full training set) ===
+ 
+ Random forest of 30 trees, each constructed while considering 4 random features.
+ Out of bag error: 0.0838
+ 
+                          === Stratified cross-validation ===
+                                 === Summary ===
+
+ 
+Correctly Classified Instances   	67822           	91.5684 %
+Incorrectly Classified Instances  	6245            	8.4316 %
+Kappa statistic                      	0.6156
+Mean absolute error                  	0.1147
+Root mean squared error              	0.2466
+Relative absolute error             	47.7902 %
+Root relative squared error         	71.1665 %
+Total Number of Instances        	74067 	
+ 
+ 
+                        === Detailed Accuracy By Class ===
+ 
+          	TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                0.968 	0.405      0.936     0.968 	0.952  	0.943    0
+                0.595 	0.032  	0.749     0.595 	0.663  	0.943    1
+Weighted Avg.    0.916 	0.353  	0.91      0.916 	0.912  	0.943
+ 
+
+Accuracy : 91.5684% 
+F-Measure = 91.20%
+Precision = 91%
+Recall = 91.6% 
+
+
+						=== Confusion Matrix ===
+							a 	b   <-- classified as
+						61676  2060 | 	a = 0
+						4185  6146 |     b = 1
+
