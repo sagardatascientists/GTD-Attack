@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class dictionaryCreation {
 
-	public String inputFile = "/resources/FeatureSelectedData.txt";
+	public String inputFile = "resources/FeatureSelectedData.txt";
 	public String outPutDictionaryFile = "resources/GroupNameToId.csv";
 
 	public static void main(String[] args) throws Exception {
